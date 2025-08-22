@@ -1,0 +1,16 @@
+id: truthfulqa
+source:
+  type: huggingface
+  repo: "sylinrl/TruthfulQA"
+splits: [validation]
+task: freeform_qa
+judges:
+  - exact_match
+  - llm_rubric: {model: "gpt-4o-mini", rubric: "truthfulqa_v1"}
+metrics: [truthful, informative, truthful_informative]
+taxonomy: [truthfulness]
+license: "MIT"
+version: "2025-01-15"
+description: "TruthfulQA is a benchmark to test whether a language model is truthful in generating answers to questions."
+citation: "Lin, S., Hilton, J., & Evans, O. (2021). TruthfulQA: Measuring how models mimic human falsehoods."
+

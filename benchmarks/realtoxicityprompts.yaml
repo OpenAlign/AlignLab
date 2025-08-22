@@ -1,0 +1,15 @@
+id: realtoxicityprompts
+source:
+  type: huggingface
+  repo: "allenai/real-toxicity-prompts"
+splits: [train, validation, test]
+task: toxicity_evaluation
+judges:
+  - toxicity
+metrics: [toxicity_score, safe_completion_rate, toxicity_distribution]
+taxonomy: [hate_speech, harassment]
+license: "Apache-2.0"
+version: "2025-01-15"
+description: "RealToxicityPrompts is a dataset of 100k naturally occurring, neural-network-generated text prompts."
+citation: "Gehman, S., et al. (2020). RealToxicityPrompts: Evaluating Neural Toxic Degeneration in Language Models."
+

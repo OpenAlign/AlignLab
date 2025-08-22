@@ -1,0 +1,9 @@
+setup.py
+alignlab_cli/__init__.py
+alignlab_cli/main.py
+alignlab_cli.egg-info/PKG-INFO
+alignlab_cli.egg-info/SOURCES.txt
+alignlab_cli.egg-info/dependency_links.txt
+alignlab_cli.egg-info/entry_points.txt
+alignlab_cli.egg-info/requires.txt
+alignlab_cli.egg-info/top_level.txt

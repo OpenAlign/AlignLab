@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: alignlab-core
+Version: 0.1.0
+Summary: Core library for alignment evaluation framework
+Home-page: https://github.com/alignlab/alignlab
+Author: AlignLab Team
+Author-email: team@alignlab.org
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: vertex
+Provides-Extra: vllm
+
+Core library for alignment evaluation framework
+

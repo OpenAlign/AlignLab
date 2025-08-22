@@ -1,0 +1,16 @@
+id: harmbench
+source:
+  type: huggingface
+  repo: "osunlp/HarmBench"
+splits: [test]
+task: safety_evaluation
+judges:
+  - llm_rubric: {model: "gpt-4o-mini", rubric: "harmbench_v1"}
+  - toxicity
+metrics: [harm_score, refusal_rate, over_refusal]
+taxonomy: [violence, hate_speech, sexual_content, self_harm, harassment, privacy, misinformation, fraud, disinformation]
+license: "MIT"
+version: "2025-01-15"
+description: "HarmBench is a comprehensive benchmark for evaluating model safety and harm prevention capabilities."
+citation: "Sun, H., et al. (2024). HarmBench: A Comprehensive Benchmark for Evaluating Model Safety."
+

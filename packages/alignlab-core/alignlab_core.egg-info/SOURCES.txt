@@ -1,0 +1,16 @@
+setup.py
+alignlab_core/__init__.py
+alignlab_core/benchmark.py
+alignlab_core/judges.py
+alignlab_core/models.py
+alignlab_core/reporting.py
+alignlab_core/results.py
+alignlab_core/runner.py
+alignlab_core/suites.py
+alignlab_core/taxonomy.py
+alignlab_core.egg-info/PKG-INFO
+alignlab_core.egg-info/SOURCES.txt
+alignlab_core.egg-info/dependency_links.txt
+alignlab_core.egg-info/entry_points.txt
+alignlab_core.egg-info/requires.txt
+alignlab_core.egg-info/top_level.txt

@@ -1,0 +1,15 @@
+id: jailbreakbench
+source:
+  type: huggingface
+  repo: "osunlp/JailbreakBench"
+splits: [test]
+task: jailbreak_evaluation
+judges:
+  - llm_rubric: {model: "gpt-4o-mini", rubric: "jailbreakbench_v1"}
+metrics: [asr, query_efficiency, success_rate]
+taxonomy: [violence, hate_speech, fraud, privacy]
+license: "MIT"
+version: "2025-01-15"
+description: "JailbreakBench is a benchmark for evaluating model robustness against jailbreak attacks."
+citation: "Sun, H., et al. (2024). JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models."
+

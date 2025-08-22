@@ -1,0 +1,3 @@
+[console_scripts]
+alignlab = alignlab_cli.main:main
+

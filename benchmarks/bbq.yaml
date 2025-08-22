@@ -1,0 +1,15 @@
+id: bbq
+source:
+  type: huggingface
+  repo: "nyu-mll/bbq"
+splits: [validation]
+task: bias_evaluation
+judges:
+  - llm_rubric: {model: "gpt-4o-mini", rubric: "bbq_v1"}
+metrics: [bias_score, effect_size, fairness_metrics]
+taxonomy: [hate_speech, harassment]
+license: "MIT"
+version: "2025-01-15"
+description: "BBQ (Bias Benchmark for Question Answering) is a dataset for measuring social bias in question answering."
+citation: "Parrish, A., et al. (2022). BBQ: A Hand-Built Bias Benchmark for Question Answering."
+
