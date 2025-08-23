@@ -1,7 +1,10 @@
-# AlignLab V1 — "HF for Alignment," end-to-end
+# AlignLab, by OpenAlign
 
-AlignLab is a comprehensive alignment evaluation framework that provides researchers and practitioners with standardized tools for evaluating AI model alignment across multiple dimensions: safety, truthfulness, bias, toxicity, and agentic robustness.
+@agi_atharv
 
+AlignLab is a comprehensive alignment framework that provides researchers and practitioners with easy to use tools for aligning models across multiple dimensions: safety, truthfulness, bias, toxicity, and agentic robustness.
+
+There is a lot more to add to AlignLab! Please work with us and contribute to the project. 
 ## 🏗️ Repository Layout (Monorepo)
 
 ```
