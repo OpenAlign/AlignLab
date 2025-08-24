@@ -1,0 +1,17 @@
+name: Enforce Branch Naming
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  check-branch-name:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check branch name
+        run: |
+          BRANCH_NAME="${{ github.head_ref }}"
+          if [[ ! "$BRANCH_NAME" =~ ^(feat|fix|docs|test)\/[a-z0-9._-]+$ ]]; then
+            echo "❌ Branch name '$BRANCH_NAME' is invalid. Use feat/, fix/, docs/, or test/."
+            exit 1
+          fi
